@@ -1,0 +1,13 @@
+@media(max-width:425px) {
+    body {
+        background-color: lightgray;
+        color:#353434;
+        font-family: 'Lato', sans-serif;
+    }
+    i {
+        visibility: visible;
+    }
+    i:hover+ .header {
+        visibility: visible;
+    }
+}

@@ -1,0 +1,51 @@
+.главная {
+    text-align: right;
+    font-size: 20px;
+}
+.ссылки {
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial;
+    color: #ff9100;
+    padding: 0px 30px 0px 30px;
+}
+.отступ {
+   padding-left: 30px;
+   padding-right: 30px;
+}
+a {
+    color: #ff9100;
+}
+.картинка {
+    width: 300px;
+    text-align: center;
+}
+#line {
+    border-color: #949994;
+    background-color:#949994;
+    height: 2px;
+    border: none;
+ }
+ .текст {
+    text-align:center;
+    font-size: 15px;
+    font-weight: 100px;
+    padding: 50px;
+ }
+ .scrinshot {
+    text-align: center;
+ }
+ .ссылки1 {
+    text-align: center;
+    font-size: 20px;
+    color: #ff9100;
+}
+ul {
+    list-style-position: left;
+    text-align: center;
+}
+.social img {
+    text-align: center;
+    weight: 45px;
+    height: 45px; 
+}

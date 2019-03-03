@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav {
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border: 2px solid black;
+    text-align: center;
+}
+span {
+    padding: 10px;
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    display: inline-block;
+}
+.relative {
+    position: relative;
+}
+ul {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+li {
+    border: 2px solid black;
+    width: 100px;
+    height: 30px;
+    list-style: none;
+}

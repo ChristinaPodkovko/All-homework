@@ -1,0 +1,19 @@
+
+.accept {
+    color: red;
+    font-size: 110%;
+    font-weight: bold;
+}
+.error {
+    color: #f0e223;
+}
+.error div {
+    color: blue;
+}
+.error div div {
+    color: blueviolet;
+    font-weight: normal;
+}
+.error div div div {
+    color: #5a3422
+}

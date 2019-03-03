@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.goods {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap; 
+}
+.goods .goods-item {
+    width: 30%;
+    background-image: url(1.jpeg);
+    border-radius: 5px; 
+    background-position: center;
+    background-size: cover; 
+    height: 100px;
+    margin-bottom: 20px;  
+}
+.goods.hide {
+    display: none;
+}
+ 

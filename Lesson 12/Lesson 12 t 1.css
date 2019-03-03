@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.inbox-page {
+  width: 320px;
+  margin: auto;
+  overflow: hidden; }
+
+.header {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0 5px 5px gray;
+  position: relative;
+  z-index: 5; }
+  .header .left-side, .header .left-side .rihgt-side {
+    font-size: 22px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: row;
+    align-content: center; }
+    .header .left-side .material-icons {
+      margin-right: 20px; }
+    .header .left-side .rihgt-side {
+      margin: 0; }
+
+.letter {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 14px;
+  color: #4d4d4d;
+  border: 1px solid grey;
+  background-color: #fafafa;
+  line-height: 18px;
+  margin-top: -1px; }
+  .letter-left-side {
+    width: 75%; }
+  .letter-right-side {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 14px;
+    color: #bcbcbc; }
+    .letter-right-side .material-icons {
+      font-size: 22px; }
+  .letter-discription {
+    color: #bcbcbc;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+
+.fixet-button {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  padding: 10px;
+  background-color: #18ffff;
+  border-radius: 50%;
+  color: #4d4d4d;
+  box-shadow: 0 3px 3px #bcbcbc;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/*# sourceMappingURL=Lesson%2012%20t%201.css.map */

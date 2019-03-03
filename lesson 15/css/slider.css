@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.galary-view {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border: 1px solid black;
+  margin: auto;
+  position: relative;
+  overflow: hidden; }
+
+.galary {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start; }
+  .galary__item {
+    background-size: cover;
+    width: 200px;
+    height: 200px; }
+
+.buttons-nav {
+  margin: auto;
+  display: flex;
+  width: 200px;
+  justify-content: space-around; }
+  .buttons-nav__btn {
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 50%; }
+
+/*# sourceMappingURL=slider.css.map */
